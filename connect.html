@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/connect.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>联系我</h1>
+        </header>
+        
+        <div class="contact-section">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-weixin"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>微信号</h3>
+                    <p class="number">Ver-0003</p>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>电话号码</h3>
+                    <p class="number">18234362496</p>
+                    <p class="number">19393105003</p>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>邮箱</h3>
+                    <p class="number">heyi2023@lzu.edu</p>
+                    <p class="number">2981130749@qq.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <h1>我的作品</h1>
+        
+        <div class="works-section">
+            <div class="work-card">
+                <div class="work-icon github-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="work-content">
+                    <div class="work-title">GitHub 仓库</div>
+                    <a class="no-underline" href="https://github.com/hy-0003" target="_blank">
+                        https://github.com/hy-0003
+                    </a>
+                    <p style="color: #666; margin-top: 8px;">查看我的开源项目、代码库和技术贡献</p>
+                </div>
+            </div>
+            
+            <div class="work-card">
+                <div class="work-icon zhihu-icon">
+                    <i class="fab fa-zhihu"></i>
+                </div>
+                <div class="work-content">
+                    <div class="work-title">知乎主页</div>
+                    <a class="no-underline" href="https://www.zhihu.com/people/--61-27-45-38" target="_blank">
+                        https://www.zhihu.com/people/--61-27-45-38
+                    </a>
+                    <p style="color: #666; margin-top: 8px;">阅读我的理论文章、观点分享</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 个人联系方式 | 贺毅</p>
+        </footer>
+    </div>
+    
+    <script>
+        // 添加简单的动画效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.contact-card, .work-card');
+            
+            cards.forEach((card, index) => {
+                // 初始设置透明度为0，准备动画
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                
+                // 使用setTimeout创建交错动画效果
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 200 * index);
+            });
+        });
+    </script>
+</body>
+</html>

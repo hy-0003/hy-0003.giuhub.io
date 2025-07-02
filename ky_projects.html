@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/project.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科研经历</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>科研经历</h1>
+        </header>
+
+        
+        <div class="project-section">
+            <h1 class="title">DL求解Fokker-Planck方程</h1>
+            <ul class="list">
+                <li>针对生物分子动力学中球面Fokker-Planck方程求解难题，自主设计基于深度BSDE方法的神经网络求解框架，开发了相应蒙特卡洛算法</li>
+                <li>通过完善算法、调整超参数，将模型损失函数稳定收敛至1e-02量级。取得突破性精度：绝对误差0.0014(相对误差5.7%)</li>
+                <li>为解决损失函数较大、不稳定问题，提出球面上BSDE方法，促使模型收敛速度加倍、损失函数趋于正常平缓</li>
+                <li>通过对比分析，验证了BSDE方法在求解Fokker-Planck方程中的有效性</li>
+                <li>预期成果：SCI二区及以上级别的学术论文，GitHub开源完整算法实现与预训练模型</li>
+            </ul>
+            
+            <div class="tech-tag">深度学习</div>
+            <div class="tech-tag">数值计算</div>
+            <div class="tech-tag">BSDE方法</div>
+            
+            <div class="image-basket">
+                <div class="image-basket-title">项目成果展示</div>
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/bsde1.png" alt="BSDE方法框架">
+                            <div class="image-caption">深度BSDE神经网络架构</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/bsde2.png" alt="收敛曲线">
+                            <div class="image-caption">损失函数收敛曲线</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/bsde3.png" alt="误差分析">
+                            <div class="image-caption">数值误差分析</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/bsde4.png" alt="对比实验">
+                            <div class="image-caption">传统方法与BSDE方法对比</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/bsde5.png" alt="结果可视化">
+                            <div class="image-caption">求解结果3D可视化</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/bsde6.png" alt="性能指标">
+                            <div class="image-caption">模型性能指标对比</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-section">
+            <h1 class="title">大语言模型DeepTA</h1>
+            <ul class="list">
+                <li>针对大学数学助教工作压力大效率低问题，兰州大学选拔团队启动DeepTA大语言模型研发项目，旨在实现数学问题自动答疑、作业批改与知识点解析</li>
+                <li>搭建Docker微服务架构、构建学科语料库与分词系统、参与模型微调全流程、清洗大学数学语料、利用LoRA微调，参与设计数学逻辑链强化训练策略</li>
+                <li>项目正在稳步推进</li>
+            </ul>
+            
+            <div class="tech-tag">自然语言处理</div>
+            <div class="tech-tag">教育科技</div>
+            <div class="tech-tag">微调技术</div>
+            
+            <div class="image-basket">
+                <div class="image-basket-title">系统架构与界面</div>
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/deepta1.png" alt="系统架构">
+                            <div class="image-caption">DeepTA系统架构图</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button-container">
+            <button class="beautiful-button" onclick="location.href='home.html'">返回主页</button>
+        </div>
+    </div>
+</body>
+    
+    <script src="js/ori.js"></script>
+    <script src="js/home.js"></script>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/project.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/style_home.css" rel="stylesheet" >-->
+    <!-- <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>探索&研究</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>探索&研究</h1>
+        </header>
+        
+        <div class="project-section">
+            <h1 class="title">基于YOLOv5的作物识别模型</h1>
+            <ul class="list">
+                <li>基于YOLOv5设计了农作物与杂草识别模型,通过数据预处理与增强、模型训练与持续优化、功能扩展与应用，实现了高精度目标检测与分类系统</li>
+                <li>通过设计早停、超参数调整使得训练集与测试集的损失函数曲线稳定收敛至0.027。针对其中三种作物，通过数据增强将模型的均值 F1-Score 提升至 0.92 以上。在IoU阈值设定为 0.5 时,mAP稳定在 0.75 ，满足中等重叠度下的检测精度要求</li>
+            </ul>
+            
+            <div class="tech-tag">计算机视觉</div>
+            <div class="tech-tag">目标检测</div>
+            <div class="tech-tag">农业科技</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/deepta1.png" alt="作物识别模型">
+                            <div class="image-caption">YOLOv5模型在农田场景的应用</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SEIRD模型研究SARS疫情 -->
+        <div class="project-section">
+            <h1 class="title">SEIRD模型研究SARS疫情</h1>
+            <ul class="list">
+                <li>基于SEIRD传染病动力学模型，将人群划分为易感者、潜伏者、感染者、康复者和死亡者五类，通过一组常微分方程描述各类人群数量变化，引入时变传染率分段函数模拟防控干预，基于Python及科学计算库实现模型参数估计与未来预测</li>
+                <li>通过数据准备与预处理、模型定义、损失函数构建与参数优化流程，以均方误差为损失函数，利用trust-constr算法优化参数，模型对累计确诊病例、感染者、康复者的拟合效果出色，皮尔逊相关系数达0.993，预测误差率低于4.7%，能有效捕捉疫情发展阶段与趋势</li>
+            </ul>
+            
+            <div class="tech-tag">传染病模型</div>
+            <div class="tech-tag">数值模拟</div>
+            <div class="tech-tag">公共卫生</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="SEIRD模型">
+                            <div class="image-caption">SEIRD模型结构示意图</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="感染者预测">
+                            <div class="image-caption">感染者数量预测曲线</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="康复者预测">
+                            <div class="image-caption">康复者数量预测曲线</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="数据预处理">
+                            <div class="image-caption">疫情数据预处理流程</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/C1.png" alt="累计病例">
+                            <div class="image-caption">累计确诊病例拟合效果</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/R2.png" alt="康复率分析">
+                            <div class="image-caption">康复率随时间变化分析</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 基于无迹卡尔曼滤波的物理模型与数据驱动融合 -->
+        <div class="project-section">
+            <h1 class="title">基于无迹卡尔曼滤波的物理模型与数据驱动融合</h1>
+            <ul class="list">
+                <li>基于无迹卡尔曼滤波，建立衡量光伏板积灰的物理模型，并与数据驱动进行融合</li>
+                <li>通过数据处理、物理模型构建、利用数据进行参数优化，最后得到预测效果与已知接近，且未来预测结果合理</li>
+            </ul>
+            
+            <div class="tech-tag">卡尔曼滤波</div>
+            <div class="tech-tag">物理模型</div>
+            <div class="tech-tag">数据融合</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="模型结构">
+                            <div class="image-caption">物理模型与数据驱动融合架构</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="预测结果">
+                            <div class="image-caption">预测结果与实际值对比</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="数据处理">
+                            <div class="image-caption">光伏板积灰数据预处理</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="参数优化">
+                            <div class="image-caption">模型参数优化过程</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 基于多物理场耦合的历史楼梯磨损分析模型 -->
+        <div class="project-section">
+            <h1 class="title">基于多物理场耦合的历史楼梯磨损分析模型</h1>
+            <ul class="list">
+                <li>主导进行了物理模型融合，将Archard摩擦理论与Archie电学定律融合，构建多层次磨损量化模型，通过表面形变与材料电阻率变化双维度解析楼梯历史使用特征</li>
+                <li>创新提出行人行为概率模型（单/双人步态分布、方向偏好），实现8项考古关键指标反演，包括使用频率、人流方向、并排人数、修建年代及维修次数等</li>
+                <li>设计敏感性分析框架，验证模型在体积变化±20%、电阻率波动±15%条件下的稳定性，为文物修复提供量化依据</li>
+            </ul>
+            
+            <div class="tech-tag">多物理场</div>
+            <div class="tech-tag">文物分析</div>
+            <div class="tech-tag">磨损模型</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="楼梯磨损">
+                            <div class="image-caption">历史楼梯磨损状态分析</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="行人模型">
+                            <div class="image-caption">行人行为概率模型</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="多物理场">
+                            <div class="image-caption">多物理场耦合模型</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="敏感性分析">
+                            <div class="image-caption">模型敏感性分析结果</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 基于哈希函数的不可伪造签名 -->
+        <div class="project-section">
+            <h1 class="title">基于哈希函数的不可伪造签名</h1>
+            <ul class="list">
+                <li>自主设计哈希签名协议，实现密钥生成（sk/pk）、消息签名（sign）及验证（prove）全流程，支持10位整型消息的不可伪造性保障。创新构建两级密钥派生机制：私钥通过位移扩展（±1），公钥基于相邻密钥的非线性运算（取模/均值）。</li>
+            </ul>
+            
+            <div class="tech-tag">密码学</div>
+            <div class="tech-tag">哈希函数</div>
+            <div class="tech-tag">数字签名</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="签名流程">
+                            <div class="image-caption">不可伪造签名协议流程图</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="密钥派生">
+                            <div class="image-caption">两级密钥派生机制</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="验证过程">
+                            <div class="image-caption">签名验证过程示意图</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="安全分析">
+                            <div class="image-caption">协议安全性分析</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 基于深度学习的二进制线性码神经网络解码器 -->
+        <div class="project-section">
+            <h1 class="title">基于深度学习的二进制线性码神经网络解码器</h1>
+            <ul class="list">
+                <li>自主设计三阶神经网络架构（输入层-640神经元隐层-320神经元隐层-输出层），通过LeakyReLU激活函数与归一化正弦输出层，实现对二进制线性码的高效解码</li>
+                <li>创新设计动态训练集生成机制（BinaryDataset类），基于权重向量v实时构建二进制编码数据集，支持模型在有限样本下快速收敛</li>
+                <li>通过动态调整学习率等，优化模型训练过程，最终实现对二进制线性码的高效解码，训练损失降至1e-3（20 epochs），测试集解码准确率>95%（置信阈值cmax=0.995/cmin=0.005）</li>
+            </ul>
+            
+            <div class="tech-tag">深度学习</div>
+            <div class="tech-tag">信息论</div>
+            <div class="tech-tag">神经网络</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="网络架构">
+                            <div class="image-caption">三阶神经网络架构</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="训练过程">
+                            <div class="image-caption">训练损失曲线</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="数据集">
+                            <div class="image-caption">动态训练集生成机制</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="准确率">
+                            <div class="image-caption">解码准确率分析</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 基于动态规划的基因序列公共子序列求解 -->
+        <div class="project-section">
+            <h1 class="title">基于动态规划的基因序列公共子序列求解</h1>
+            <ul class="list">
+                <li>实现经典LCS算法：通过动态规划构建状态转移矩阵（c[][]）和方向标记矩阵（b[][]），高效求解生物基因序列的公共子序列问题</li>
+                <li>设计回溯机制：精准重构最长公共子序列，避免仅输出长度信息的局限性</li>
+                <li>开发用户友好界面：支持命令行交互式输入（如AGCGT格式），自动输出公共序列长度及具体核苷酸排列</li>
+            </ul>
+            
+            <div class="tech-tag">算法设计</div>
+            <div class="tech-tag">生物信息学</div>
+            <div class="tech-tag">动态规划</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="LCS算法">
+                            <div class="image-caption">LCS算法状态转移矩阵</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="回溯机制">
+                            <div class="image-caption">回溯机制示意图</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="基因序列">
+                            <div class="image-caption">基因序列比对示例</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="用户界面">
+                            <div class="image-caption">命令行用户界面</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FFT与IFFT算法实现 -->
+        <div class="project-section">
+            <h1 class="title">FFT与IFFT算法实现</h1>
+            <ul class="list">
+                <li>通过蝶形运算优化（Butterfly Operation）和位反转排列（Bit Reversal），实现O(N log N)复杂度的快速傅里叶变换</li>
+                <li>设计自动化测试模块（如1024点随机复数序列），量化验证FFT较DFT的加速效果，为信号处理场景提供算法选型依据</li>
+            </ul>
+            
+            <div class="tech-tag">信号处理</div>
+            <div class="tech-tag">算法优化</div>
+            <div class="tech-tag">傅里叶变换</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="蝶形运算">
+                            <div class="image-caption">蝶形运算示意图</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="FFT流程">
+                            <div class="image-caption">FFT算法流程图</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="性能对比">
+                            <div class="image-caption">FFT与DFT性能对比</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="测试模块">
+                            <div class="image-caption">自动化测试模块</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 数值分析插值方法库：高效实现与性能评估 -->
+        <div class="project-section">
+            <h1 class="title">数值分析插值方法库：高效实现与性能评估</h1>
+            <ul class="list">
+                <li>设计并编码实现了多种核心数值插值算法（如拉格朗日插值、牛顿插值、分段线性插值、三次样条插值等）</li>
+                <li>利用Python构建模块化代码，严格处理边界条件和异常输入，确保数值稳定性和计算效率</li>
+            </ul>
+            
+            <div class="tech-tag">数值分析</div>
+            <div class="tech-tag">算法实现</div>
+            <div class="tech-tag">科学计算</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/sars1.png" alt="插值方法">
+                            <div class="image-caption">多种插值方法对比</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/I2.png" alt="模块结构">
+                            <div class="image-caption">模块化代码结构</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/R1.png" alt="性能评估">
+                            <div class="image-caption">算法性能评估</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/csv.png" alt="边界处理">
+                            <div class="image-caption">边界条件处理机制</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="button-container">
+            <button class="beautiful-button" onclick="location.href='home.html'">返回主页</button>
+        </div>
+    </div>
+</body>
+    <script src="js/ori.js"></script>
+    <script src="js/home.js"></script>    
+</html>
