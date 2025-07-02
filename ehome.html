@@ -94,7 +94,7 @@
         </p>
       </li>
       <br />
-      <b>Full details: <a href="award.html">技能 & 获奖</a></b>
+      <b>Full details: <a href="ability.html">技能 & 获奖</a></b>
     </ul>
 
     <h2>Research Projects</h2>
@@ -112,7 +112,7 @@
         </p>
       </li>
       <br />
-      <b>Technical deep dive: <a href="project.html">Research Portfolio</a></b>
+      <b>Technical deep dive: <a href="ky_projects.html">Research Portfolio</a></b>
     </ul>
 
     <h2>Independent Research</h2>
@@ -142,51 +142,73 @@
         </p>
       </li>
       <br />
-      <b>See all explorations: <a href="project.html">探索&研究</a></b>
+      <b>See all explorations: <a href="self_projects.html">探索&研究</a></b>
     </ul>
 
     <h2>My LLM: Ver</h2>
-        <p>
-          I developed my proprietary large language model based on <a href="https://dify.ai/" target="_blank">Dify</a>, 
-          integrating my expertise in mathematical theories, research projects, and technical implementations.
-          If you're interested in details of my work, try querying Ver!
-        </p>
+<p>
+  I developed my proprietary large language model based on <a href="https://dify.ai/" target="_blank">Dify</a>, 
+  integrating my expertise in mathematical theories, research projects, and technical implementations.
+  If you're interested in details of my work, try querying Ver!
+</p>
 
-    <b>Information you can obtain from it:</b>
-    <ul>
-      <li>Background, innovations, and application value of my research projects</li>
-      <li>Technical and algorithmic implementation details in exploratory projects</li>
-      <li>Detailed mathematical derivations from my research</li>
-      <li>Solutions to technical challenges and experimental validation processes</li>
-      <li>Status and insights on my research in AI for Science and related fields</li>
+<b>Information you can obtain from it:</b>
+<ul>
+  <li>Background, innovations, and application value of my research projects</li>
+  <li>Technical and algorithmic implementation details in exploratory projects</li>
+  <li>Detailed mathematical derivations from my research</li>
+  <li>Solutions to technical challenges and experimental validation processes</li>
+  <li>Status and insights on my research in AI for Science and related fields</li>
+</ul>
+
+<b>
+  Ver possesses extensive personal documentation and can provide professional, detailed responses.
+  Try asking questions through the chat interface below, for example:
+</b>
+<ul>
+  <li>"Explain Yi He's contributions to the Deepta project"</li>
+  <li>"Please introduce Yi He"</li>
+  <li>"Could you derive the Transform BSDE process in detail?"</li>
+  <li>"What self-exploratory initiatives has Yi He undertaken?"</li>
+</ul>
+
+<button id="loadLLMButton" style="
+    padding: 16px 32px;
+    background: linear-gradient(145deg, #5981b5, #7aa5d9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 26px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    margin: 20px 0;
+">
+  Load Ver Chat Feature
+</button>
+
+
+    <div id="llmContainer" style="display:none; margin-top:20px">
+      <iframe 
+        id="llmFrame"
+        style="width: 100%; height: 100%; min-height: 700px; border-radius: 12px;" 
+        frameborder="0" 
+        allow="microphone">
+      </iframe>
+    </div>
+
+
+    <div id="llmContainer" style="display:none; margin-top:20px">
+      <iframe 
+        id="llmFrame"
+        style="width: 100%; height: 100%; min-height: 700px" 
+        frameborder="0" 
+        allow="microphone">
+      </iframe>
+    </div>
+
     </ul>
-
-    <b>
-      Ver possesses extensive personal documentation and can provide professional, detailed responses.
-      Try asking questions through the chat interface below, for example:
-    </b>
-    <ul>
-      <li>"Explain Yi He's contributions to the Deepta project"</li>
-      <li>"Please introduce Yi He"</li>
-      <li>"Could you derive the Transform BSDE process in detail?"</li>
-      <li>"What self-exploratory initiatives has Yi He undertaken?"</li>
-    </ul>
-
-    <button id="loadLLMButton" style="
-        padding: 16px 32px;
-        background: linear-gradient(145deg, #5981b5, #7aa5d9);
-        color: white;
-        border: none;
-        cursor: pointer;
-        border-radius: 26px;
-        font-size: 20px;
-        font-weight: bold;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-        transition: all 0.3s ease;
-        margin: 20px 0;
-    ">
-      Load Ver Chat Feature
-    </button>
 
     <div id="footer">
       <div id="footer-text">
