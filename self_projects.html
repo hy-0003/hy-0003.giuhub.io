@@ -13,6 +13,103 @@
         <header>
             <h1>探索&研究</h1>
         </header>
+
+
+
+        <!-- 多智能体科研助手项目 -->
+        <div class="project-section">
+            <h1 class="title">多智能体科研助手</h1>
+            <ul class="list">
+                <li>多智能体科研助手是基于Deepseek的Mutli-Agent协作系统，能够助力用户在短时间内完成科研或作业项目。项目实现了多智能体分工协作，包含资料分析员、问题提出者、代码编写者、Bug识别者、修复建议者、验证测试者和论文撰写者等角色，共同完成从资料调研、问题设计、模型生成到报告写作的全流程。</li>
+                <li>项目可自动构建模型并附代码，能可视化传播曲线；支持自动论文生成，生成的论文符合引言、方法、结果、讨论、结论的标准结构；同时具备日志记录功能，每轮对话实时保存到`logs/round_<n>.log`文件中。</li>
+                <li>项目以“学生考试心理紧张的多维度研究”为例，采用纵向观察与横断面调查相结合的研究设计，收集150名大学生的多维度数据，运用心理测量工具和生理测量指标进行数据采集，使用相关统计方法进行数据分析，得出考试焦虑的时程特征、学科差异、生理 - 心理关联、干预效果和长期影响等结论。</li>
+            </ul>
+
+            <div class="tech-tag">多智能体协作</div>
+            <div class="tech-tag">科研助手</div>
+            <div class="tech-tag">Deepseek-API</div>
+            <div class="tech-tag">一键出文</div>
+            <div class="tech-tag">Github</div>
+
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/mutli2.png" alt="自动生成Markdown">
+                            <div class="image-caption">自动生成Markdown</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/mutli3.png" alt="Prompt工程">
+                            <div class="image-caption">Prompt Engineering 设计</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/mutli1.png" alt="github">
+                            <div class="image-caption">Github持续项目</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/mutli4.png" alt="Deepseek-API">
+                            <div class="image-caption">Deepseek-API接入</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/mutli5.png" alt="Deepseek流量检测">
+                            <div class="image-caption">Deepseek实时流量检测</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/mutli6.png" alt="MUtli-Agent工作流程">
+                            <div class="image-caption">Mutli-Agent工作流程可视化</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- 基于深度学习的二进制线性码神经网络解码器 -->
+        <div class="project-section">
+            <h1 class="title">基于深度学习的二进制线性码神经网络解码器</h1>
+            <ul class="list">
+                <li>自主设计三阶神经网络架构（输入层-640神经元隐层-320神经元隐层-输出层），通过LeakyReLU激活函数与归一化正弦输出层，实现对二进制线性码的高效解码</li>
+                <li>创新设计动态训练集生成机制（BinaryDataset类），基于权重向量v实时构建二进制编码数据集，支持模型在有限样本下快速收敛</li>
+                <li>通过动态调整学习率等，优化模型训练过程，最终实现对二进制线性码的高效解码，训练损失降至1e-3（20 epochs），测试集解码准确率>95%（置信阈值cmax=0.995/cmin=0.005）</li>
+            </ul>
+            
+            <div class="tech-tag">深度学习</div>
+            <div class="tech-tag">信息论</div>
+            <div class="tech-tag">代数</div>
+            <div class="tech-tag">密码学</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/groupcode1.png" alt="网络架构">
+                            <div class="image-caption">神经网络架构</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/groupcode2.png" alt="文章总结">
+                            <div class="image-caption">文章总结</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/groupcode3.png" alt="工程概览">
+                            <div class="image-caption">项目成果概览</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/groupcode4.png" alt="准确率">
+                            <div class="image-caption">解码准确率分析</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
         <div class="project-section">
             <h1 class="title">基于YOLOv5的作物识别模型</h1>
@@ -23,14 +120,30 @@
             
             <div class="tech-tag">计算机视觉</div>
             <div class="tech-tag">目标检测</div>
-            <div class="tech-tag">农业科技</div>
+            <div class="tech-tag">Yolo</div>
             
             <div class="image-basket">
                 <div class="image-grid">
                     <div class="grid-row">
                         <div class="image-item">
-                            <img src="project_image/deepta1.png" alt="作物识别模型">
-                            <div class="image-caption">YOLOv5模型在农田场景的应用</div>
+                            <img src="project_image/yolo1.png" alt="MAML算法">
+                            <div class="image-caption">MAML算法</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/yolo2.png" alt="数据可视化">
+                            <div class="image-caption">数据可视化</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/yolo3.png" alt="模型效果">
+                            <div class="image-caption">模型识别效果</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/yolo4.png" alt="配置地址">
+                            <div class="image-caption">配置地址与数据</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/yolo6.png" alt="数据处理">
+                            <div class="image-caption">数据预处理</div>
                         </div>
                     </div>
                 </div>
@@ -45,20 +158,20 @@
                 <li>通过数据准备与预处理、模型定义、损失函数构建与参数优化流程，以均方误差为损失函数，利用trust-constr算法优化参数，模型对累计确诊病例、感染者、康复者的拟合效果出色，皮尔逊相关系数达0.993，预测误差率低于4.7%，能有效捕捉疫情发展阶段与趋势</li>
             </ul>
             
-            <div class="tech-tag">传染病模型</div>
+            <div class="tech-tag">数学模型</div>
             <div class="tech-tag">数值模拟</div>
-            <div class="tech-tag">公共卫生</div>
+            <div class="tech-tag">SEIRD模型</div>
             
             <div class="image-basket">
                 <div class="image-grid">
                     <div class="grid-row">
                         <div class="image-item">
                             <img src="project_image/sars1.png" alt="SEIRD模型">
-                            <div class="image-caption">SEIRD模型结构示意图</div>
+                            <div class="image-caption">SEIRD模型构建</div>
                         </div>
                         <div class="image-item">
-                            <img src="project_image/I2.png" alt="感染者预测">
-                            <div class="image-caption">感染者数量预测曲线</div>
+                            <img src="project_image/csv.png" alt="数据处理">
+                            <div class="image-caption">疫情数据处理</div>
                         </div>
                     </div>
                     <div class="grid-row">
@@ -66,12 +179,6 @@
                             <img src="project_image/R1.png" alt="康复者预测">
                             <div class="image-caption">康复者数量预测曲线</div>
                         </div>
-                        <div class="image-item">
-                            <img src="project_image/csv.png" alt="数据预处理">
-                            <div class="image-caption">疫情数据预处理流程</div>
-                        </div>
-                    </div>
-                    <div class="grid-row">
                         <div class="image-item">
                             <img src="project_image/C1.png" alt="累计病例">
                             <div class="image-caption">累计确诊病例拟合效果</div>
@@ -84,6 +191,51 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- 基于多物理场耦合的历史楼梯磨损分析模型 -->
+        <div class="project-section">
+            <h1 class="title">基于多物理场耦合的历史楼梯磨损分析模型</h1>
+            <ul class="list">
+                <li>主导进行了物理模型融合，将Archard摩擦理论与Archie电学定律融合，构建多层次磨损量化模型，通过表面形变与材料电阻率变化双维度解析楼梯历史使用特征</li>
+                <li>创新提出行人行为概率模型（单/双人步态分布、方向偏好），实现8项考古关键指标反演，包括使用频率、人流方向、并排人数、修建年代及维修次数等</li>
+                <li>设计敏感性分析框架，验证模型在体积变化±20%、电阻率波动±15%条件下的稳定性，为文物修复提供量化依据</li>
+            </ul>
+            
+            <div class="tech-tag">模型融合</div>
+            <div class="tech-tag">概率密度</div>
+            <div class="tech-tag">灵敏度分析</div>
+            
+            <div class="image-basket">
+                <div class="image-grid">
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/ms1.png" alt="全英论文">
+                            <div class="image-caption">全英论文</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/ms2.jpg" alt="问题分析">
+                            <div class="image-caption">具体模型分析</div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="image-item">
+                            <img src="project_image/ms3.png" alt="处理流程">
+                            <div class="image-caption">模型构建与处理流程</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/ms4.png" alt="概率模型">
+                            <div class="image-caption">概率模型引入</div>
+                        </div>
+                        <div class="image-item">
+                            <img src="project_image/ms5.png" alt="修缮模拟">
+                            <div class="image-caption">楼梯修缮模拟</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
         <!-- 基于无迹卡尔曼滤波的物理模型与数据驱动融合 -->
         <div class="project-section">
@@ -123,45 +275,6 @@
             </div>
         </div>
         
-        <!-- 基于多物理场耦合的历史楼梯磨损分析模型 -->
-        <div class="project-section">
-            <h1 class="title">基于多物理场耦合的历史楼梯磨损分析模型</h1>
-            <ul class="list">
-                <li>主导进行了物理模型融合，将Archard摩擦理论与Archie电学定律融合，构建多层次磨损量化模型，通过表面形变与材料电阻率变化双维度解析楼梯历史使用特征</li>
-                <li>创新提出行人行为概率模型（单/双人步态分布、方向偏好），实现8项考古关键指标反演，包括使用频率、人流方向、并排人数、修建年代及维修次数等</li>
-                <li>设计敏感性分析框架，验证模型在体积变化±20%、电阻率波动±15%条件下的稳定性，为文物修复提供量化依据</li>
-            </ul>
-            
-            <div class="tech-tag">多物理场</div>
-            <div class="tech-tag">文物分析</div>
-            <div class="tech-tag">磨损模型</div>
-            
-            <div class="image-basket">
-                <div class="image-grid">
-                    <div class="grid-row">
-                        <div class="image-item">
-                            <img src="project_image/sars1.png" alt="楼梯磨损">
-                            <div class="image-caption">历史楼梯磨损状态分析</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="project_image/I2.png" alt="行人模型">
-                            <div class="image-caption">行人行为概率模型</div>
-                        </div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="image-item">
-                            <img src="project_image/R1.png" alt="多物理场">
-                            <div class="image-caption">多物理场耦合模型</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="project_image/csv.png" alt="敏感性分析">
-                            <div class="image-caption">模型敏感性分析结果</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <!-- 基于哈希函数的不可伪造签名 -->
         <div class="project-section">
             <h1 class="title">基于哈希函数的不可伪造签名</h1>
@@ -193,45 +306,6 @@
                         <div class="image-item">
                             <img src="project_image/csv.png" alt="安全分析">
                             <div class="image-caption">协议安全性分析</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 基于深度学习的二进制线性码神经网络解码器 -->
-        <div class="project-section">
-            <h1 class="title">基于深度学习的二进制线性码神经网络解码器</h1>
-            <ul class="list">
-                <li>自主设计三阶神经网络架构（输入层-640神经元隐层-320神经元隐层-输出层），通过LeakyReLU激活函数与归一化正弦输出层，实现对二进制线性码的高效解码</li>
-                <li>创新设计动态训练集生成机制（BinaryDataset类），基于权重向量v实时构建二进制编码数据集，支持模型在有限样本下快速收敛</li>
-                <li>通过动态调整学习率等，优化模型训练过程，最终实现对二进制线性码的高效解码，训练损失降至1e-3（20 epochs），测试集解码准确率>95%（置信阈值cmax=0.995/cmin=0.005）</li>
-            </ul>
-            
-            <div class="tech-tag">深度学习</div>
-            <div class="tech-tag">信息论</div>
-            <div class="tech-tag">神经网络</div>
-            
-            <div class="image-basket">
-                <div class="image-grid">
-                    <div class="grid-row">
-                        <div class="image-item">
-                            <img src="project_image/sars1.png" alt="网络架构">
-                            <div class="image-caption">三阶神经网络架构</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="project_image/I2.png" alt="训练过程">
-                            <div class="image-caption">训练损失曲线</div>
-                        </div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="image-item">
-                            <img src="project_image/R1.png" alt="数据集">
-                            <div class="image-caption">动态训练集生成机制</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="project_image/csv.png" alt="准确率">
-                            <div class="image-caption">解码准确率分析</div>
                         </div>
                     </div>
                 </div>
@@ -353,10 +427,11 @@
             </div>
         </div>
         
-        
+        <!---
         <div class="button-container">
-            <button class="beautiful-button" onclick="location.href='home.html'">返回主页</button>
+            <button class="beautiful-button" onclick="location.href='index.html'">返回主页</button>
         </div>
+        -->
     </div>
 </body>
     <script src="js/ori.js"></script>
